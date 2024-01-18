@@ -8,6 +8,7 @@ async function main() {
     server: { middlewareMode: true },
   });
   await server.ssrLoadModule("/repro-entry.js")
+  await server.close();
 }
 
 main();

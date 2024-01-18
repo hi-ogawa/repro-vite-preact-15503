@@ -3,10 +3,6 @@
   "version": "0.0.0",
   "license": "UNLICENSED",
   "type": "commonjs",
-  "engines": {
-    "node": "16.18.1",
-    "npm": "8.19.2"
-  },
   "scripts": {
     "dev": "node repro-dev.js",
     "build": "vite build",
@@ -24,10 +20,16 @@
     "react-responsive": "^9.0.2",
     "vite": "^5.0.10"
   },
-  "pnpm": {
-    "overrides": {
-      "react": "npm:@preact/compat",
-      "react-dom": "npm:@preact/compat"
-    }
+  "packageManager": "npm@10.3.0+sha256.ec92e7332e3f7aef6feb2b3c9585fde534cd56905cf26e77debc69e4e2b44892",
+  "engines": {
+    "node": "16.18.1",
+    "npm": "8.19.2"
+  },
+  "volta": {
+    "node": "20.11.0"
+  },
+  "overrides": {
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat"
   }
 }

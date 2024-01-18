@@ -21,11 +21,11 @@ TypeError: Cannot read properties of undefined (reading 'context')
     at eval (/home/hiroshi/code/tmp/repro-vite-15503/repro-entry.js:22:1)
 
 # same error
-pnpm build
+npm run build
 node dist/repro-entry.mjs
 
 # ok
-pnpm build-cjs
+npm run build-cjs
 node dist/repro-entry.cjs
 # -> { result: '<div>true</div>' }
 ```

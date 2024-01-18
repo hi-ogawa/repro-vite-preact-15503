@@ -1,0 +1,14 @@
+diff --git a/node_modules/preact/package.json b/node_modules/preact/package.json
+index a2d6871..d70fdb8 100644
+--- a/node_modules/preact/package.json
++++ b/node_modules/preact/package.json
+@@ -14,8 +14,7 @@
+       "types": "./src/index.d.ts",
+       "browser": "./dist/preact.module.js",
+       "umd": "./dist/preact.umd.js",
+-      "import": "./dist/preact.mjs",
+-      "require": "./dist/preact.js"
++      "default": "./dist/preact.js"
+     },
+     "./compat": {
+       "types": "./compat/src/index.d.ts",

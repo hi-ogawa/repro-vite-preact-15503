@@ -1,0 +1,15 @@
+diff --git a/node_modules/preact-render-to-string/package.json b/node_modules/preact-render-to-string/package.json
+index 155af6a..7a98180 100644
+--- a/node_modules/preact-render-to-string/package.json
++++ b/node_modules/preact-render-to-string/package.json
+@@ -11,9 +11,8 @@
+ 	"exports": {
+ 		".": {
+ 			"types": "./src/index.d.ts",
+-			"import": "./dist/index.mjs",
+ 			"browser": "./dist/index.module.js",
+-			"require": "./dist/index.js"
++			"default": "./dist/index.js"
+ 		},
+ 		"./jsx": {
+ 			"types": "./jsx.d.ts",
